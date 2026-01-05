@@ -36,7 +36,7 @@ Follow these steps to get a copy of the project up and running on your local mac
 - **Node.js** (Must have version 18.17 or later recommended)  
 - **npm** (comes with Node.js) or **yarn**
 
-### Installation
+### ⚙️ Installation
 
 1. **Clone the repository**
 
@@ -78,5 +78,5 @@ yarn dev
 
 ## 🙌 Author
 
-**Muhammad Musabbir** |
+**Muhammad Musabbir** | 
 Junior Frontend Developer | Next.js Developer
