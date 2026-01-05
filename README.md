@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SPF Record Checker
 
-## Getting Started
+A simple and interactive web application to check **SPF (Sender Policy Framework)** records for any domain. This tool helps users understand which mail servers are authorized to send emails on behalf of a domain.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-16.1.1-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19.2.3-blue?style=flat&logo=react&logoColor=white)](https://reactjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0.0-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- **Simple Interface**  
+  Enter a domain name and instantly view its SPF record.
+
+- **Interactive Exploration**  
+  Click on `include:` and `redirect=` directives to expand and view the SPF records of included domains.
+
+- **Clear Formatting**  
+  SPF records are parsed and color-coded for better readability.
+
+- **Error Handling**  
+  Provides clear feedback for invalid domains, missing records, or lookup failures.
+
+- **Responsive Design**  
+  Works seamlessly on desktop and mobile devices.
+
+- **Loading Indicators**  
+  Shows a loading spinner while fetching DNS records.
+
+
+## 🚀 How to Run Locally
+
+Follow these steps to get a copy of the project up and running on your local machine for development and testing.
+
+### Prerequisites
+
+- **Node.js** (Must have version 18.17 or later recommended)  
+- **npm** (comes with Node.js) or **yarn**
+
+### Installation
+
+1. **Clone the repository**
+
+```
+bash
+
+git clone https://github.com/your-username/spf-checker-simple.git
+cd spf-checker-simple
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install Dependecies**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Using npm:
+```
+bash
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm install
+```
+Or using yarn: 
+```
+bash
 
-## Learn More
+yarn dev
+```
+3. **Run the development server**
 
-To learn more about Next.js, take a look at the following resources:
+Using npm:
+```
+bash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run dev
+```
+Or using yarn:
+```
+bash
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+yarn dev
+```
 
-## Deploy on Vercel
+## 🙌 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Muhammad Musabbir**
+Junior Frontend Developer | Next.js Developer
