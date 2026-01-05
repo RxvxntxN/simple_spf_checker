@@ -78,5 +78,5 @@ yarn dev
 
 ## 🙌 Author
 
-**Muhammad Musabbir**
+**Muhammad Musabbir** |
 Junior Frontend Developer | Next.js Developer
